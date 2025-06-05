@@ -1,8 +1,8 @@
-import {useContext} from 'react';
+// import {useContext} from 'react';
 import styled from 'styled-components';
-import globalStylesContext from './context/globalStylesContext';
+import globalStylesContext from '../../context/globalStylesContext';
 
-const styles = useContext(globalStylesContext);
+// const styles = useContext(globalStylesContext);
 
 export const Container = styled.div`
   display: flex;
